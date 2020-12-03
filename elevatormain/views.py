@@ -117,8 +117,3 @@ def control(request):
                 return JsonResponse({'not an integer': floor_count}, status=400)
 
         return HttpResponse(status=200)
-
-
-def log(request):
-    if request.method == 'GET':
-        pass
