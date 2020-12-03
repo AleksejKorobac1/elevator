@@ -4,7 +4,7 @@ Elevator control API with elevator simulator
 python manage.py elevatorsim to start simulator
 
 # GET requests:
-* /control?elevator_id=x | x - elevator id. Returns elevator status
+* /control?elevator_id=x,y | x,y - elevator id. Returns elevator status
 * /control?elevator_id=x&log=1 | x - elevator id. Returns log info for specified elevators
 
 # POST requests:
